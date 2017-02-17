@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>huanshimoyuan</title>
+  <title>windows系统搭建GitHub博客 | huanshimoyuan</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -84,7 +84,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -220,222 +220,161 @@
         <!-- // End height spacing helper -->
 
         <!-- ============================ END Hero Image =========================== -->
-      <!-- ============================ Content =========================== -->
-
+      
 <section id="intro">
     <div class="container">
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/06/18/windows系统下搭建博客/">windows系统搭建GitHub博客</a></h3>
-                    <span>
-                        <span class="post-meta">
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
       <time datetime="2016-06-18T09:50:32.000Z" itemprop="datePublished">
           2016-06-18
       </time>
     
 </span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        所需工具：
-github账号（去官网注册，并创建仓库,过程可参考之前的博客）
-git（可以去百度搜索下载）
-nodejs（官网下载即可）
-
-注：下载软件的版本需和系统保持一致，不同软件版本的安装与使用可能会出现差异，请尽量与本教程保持一致，安装过程中，没有特殊说明的，提示输入密码，请输入管理员密码  也会有对话框弹出：输入用户名和密码，这里输入的时github账号的用户名和密码（下面不做说明，主要是忘记截图了）
-本教程部分资料来自:  
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/06/18/windows系统下搭建博客/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
+                <h1>windows系统搭建GitHub博客</h1>
             </div>
         </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/06/16/搭建GitHub博客(三)/">搭建GitHub博客(三)</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2016-06-16T12:18:20.000Z" itemprop="datePublished">
-          2016-06-16
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        现在准备开始进行验证
-终端输入:git config –global user.name “你的用户名”
- 输入完成不会有任何提示，继续输入:git config –global user.email “你的邮箱”
- 同样，不会有任何提示。
+        <div class="col-md-8 col-md-offset-2">
+      		<h2 id="所需工具："><a href="#所需工具：" class="headerlink" title="所需工具："></a>所需工具：</h2><ol>
+<li>github账号（去官网注册，并创建仓库,过程可参考之前的博客）</li>
+<li>git（可以去百度搜索下载）</li>
+<li>nodejs（官网下载即可）</li>
+</ol>
+<p>注：下载软件的版本需和系统保持一致，不同软件版本的安装与使用可能会出现差异，请尽量与本教程保持一致，安装过程中，没有特殊说明的，提示输入密码，请输入管理员密码  也会有对话框弹出：输入用户名和密码，这里输入的时github账号的用户名和密码（下面不做说明，主要是忘记截图了）</p>
+<p>本教程部分资料来自:    <a href="http://hifor.net/2015/07/01/零基础免费搭建个人博客-hexo-github/" target="_blank" rel="external">教程</a></p>
+<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><ol>
+<li><p>打开安装包，点击next</p>
+<p> <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github1.png?raw=true" alt="setup文件"></p>
+</li>
+<li><p>这里选择对应的windows选项，如下图：</p>
+<p> <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github2.png?raw=true" alt="use windows"></p>
+<p> <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github3.png?raw=true" alt="next"></p>
+</li>
+<li><p>等待安装完成</p>
+<p> <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github4.png?raw=true" alt="finish"></p>
+</li>
+</ol>
+<h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p>安装过程没什么需要修改的，路径可根据自己的喜好选择，一直下一步就可以了</p>
+<h2 id="验证软件正确安装"><a href="#验证软件正确安装" class="headerlink" title="验证软件正确安装"></a>验证软件正确安装</h2><p>同时按下Win键和R键（或者点击“开始菜单”-&gt;点击“运行”）,打开运行窗口,输入“cmd”<br>然后输入以下命令，结果与下图相同则说明安装正确，若不正确可以卸载软件重新安装<br>git –version<br>node -v<br>npm -v</p>
+<p><img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github5.png?raw=true" alt="验证"></p>
+<p>注：命令输入完成之后需要按下回车，下面不再描述，输入完成后，自己按回车</p>
+<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>注：我自己在安装过程中,有部分内容和图片不符,不过没有关系,输入命令行的时候,不要出现错误,应该都可以安装成功</p>
+<ul>
+<li><p>在电脑上新建一个blog文件夹,该文件夹用于存放你的博客文件,打开文件夹（既：进入文件夹）,然后右键单击选择“Git Bash”</p>
+<p>  <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github6.png?raw=true" alt="Git Bash"></p>
+</li>
+<li><p>大家估计都有被“墙”的经历，安装hexo为了避免出现类似情况，使用淘宝NPM镜像,输入命令等待安装完成:npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org保留代码中的空格" target="_blank" rel="external">https://registry.npm.taobao.org保留代码中的空格</a></p>
+</li>
+</ul>
+<p><img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github7.png?raw=true" alt="install hexo"></p>
+<ul>
+<li>使用npm安装hexo,输入命令:cnpm install -g hexo-cli等待hexo安装完成</li>
+</ul>
+<p><img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github8.png?raw=true" alt="wait"></p>
+<ul>
+<li><p>安装过程出现WARN不用理会，完成之后继续输入:cnpm install hexo –save<br>安装完成后，输入:hexo -v<br>会显示版本信息</p>
+<p>  <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github9.png?raw=true" alt="验证"></p>
+</li>
+</ul>
+<p>注：代码的输入都是在blog文件夹下操作的(包括上面的操作)</p>
+<ul>
+<li><p>初始化博客文件夹<br>输入:hexo init</p>
+<p>  <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github10.png?raw=true" alt="初始化"></p>
+</li>
+</ul>
+<p>等待初始化完成，完成后你会发现在文件夹中会生成一些文件</p>
+<ul>
+<li><p>安装生成器<br>输入:cnpm install</p>
+<p>  <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github11.png?raw=true" alt="安装生成器"></p>
+</li>
+<li><p>输入:hexo s -g<br>以后要在本地运行博客只需要输入该命令即可</p>
+<p>  <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github12.png?raw=true" alt="编译"></p>
+</li>
+<li><p>打开浏览器，输入localhost:4000,就可以在本地看到你的个人博客了</p>
+<p>  <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github13.png?raw=true" alt="本地博客"></p>
+</li>
+<li><p>停止运行，按住Ctrl+c即可停止运行hexo</p>
+</li>
+</ul>
+<h2 id="博客相关配置"><a href="#博客相关配置" class="headerlink" title="博客相关配置"></a>博客相关配置</h2><ol>
+<li><p>配置信息<br>打开blog文件夹，使用文本编辑器打开-config.yml文件，进行修改</p>
+<p><img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github14.png?raw=true" alt="change"></p>
+<p><img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/step21.png?raw=true" alt="change1"></p>
+<p><img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/step22.png?raw=true" alt="change2"></p>
+</li>
+<li><p>配置ssh-key</p>
+<p>作用：使本地的git项目与远程的github建立联系</p>
+<p>a. 生成新的ssh-key<br>   git工具依旧在blog目录下打开，输入:ssh-keygen -t rsa -C “邮箱地址”<br>   系统提示（如下）：</p>
+<p>   `</p>
+<p>   ssh-keygen -t rsa -C “邮件地址@youremail.com”</p>
+<p>   Generating public/private rsa key pair.<br>   Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):直接回车<br>   Enter passphrase (empty for no passphrase):再次回车<br>   Enter same passphrase again:再回车</p>
+<p>   `</p>
+<p>   注意：输入密码的时候没有*字样的，你直接输入就可以了<br>   最后看到这样的界面，就成功设置ssh key了：</p>
+<p>   <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github20.png?raw=true" alt=""></p>
+<p>b. 添加SSH Key到GitHub</p>
+<p>在本机设置SSH Key之后，需要添加到GitHub上，以完成SSH链接的设置。</p>
+<pre><code>* 1. 输入:vim ~/.ssh/id_rsa.pub
+     弹出一串key，复制下来，然后直接输入&quot;:q&quot;退出（&quot;&quot;不需要输入）
+     (或者：打开本地C:\Documents and Settings\Administrator.ssh\id_rsa.pub文件。此文件里面内容为刚才生成人密钥。如果看不到这个文件，你需要设置显示隐藏文件。准确的复制这个文件的内容，才能保证设置的成功。)
 
-打开blog文件夹，找到_config.yml文件，使用文本编辑器打开，进行如下修改
- 
- 
+* 2. 登陆github系统。点击右上角的 Account Settings—-&gt;SSH Public keys —-&gt; add another public keys
 
-接下来就可以发布自己的本地博客到线上了输入:npm install hexo-deployer-gi
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/06/16/搭建GitHub博客(三)/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
+* 3. 把你本地生成的密钥复制到里面（key文本框中）， 点击 add key 就ok了
+     注：此步骤有不清楚的地方请参考我的文章--搭建GitHub博客
+</code></pre><p>c. 验证git身份信息</p>
+<pre><code>输入:git config --global user.name &quot;你的用户名&quot;
+输入:git config --global user.email &quot;你的邮箱&quot;
+这两步输入完成后不会有任何提示
+</code></pre><p>d. 安装hexo git插件</p>
+<pre><code>输入:cnpm install hexo-deployer-git --save
+等待安装完成
+</code></pre></li>
+</ol>
+<p>接下来就可以写博客了</p>
+<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><ol>
+<li><p>在git工具中把目录切换到blog/source/_posts</p>
+<p> 输入:hexo new 文章名称(注：图中的””可以不输入,直接输入文件名称即可，也不需要输入文件后缀)</p>
+<p> <img src="https://github.com/huanshimoyuan/huanshimoyuan.github.io/blob/master/images/win_hexo_github19.png?raw=true" alt="新建博客文件"></p>
+<p> 用编辑器打开新建的 文章名称.md文件，编写完成后保存</p>
+<p> 然后把目录定位到blog文件夹下，输入:hexo server</p>
+<p> 会显示一个本地的网址，可以用浏览器打开，看一下博客的显示状况，没有问题就可以发布到github上了，退出hexo server按下Ctrl+c</p>
+<p> 输入:hexo g</p>
+<p> 会自动编译网页，等待完成</p>
+<p> 输入:hexo d</p>
+<p> 等待本地网页的上传.</p>
+</li>
+</ol>
+<p>上传完成后，你就可以使用自己的域名浏览自己的博客了。既:用户名.github.io</p>
+
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/06/15/搭建GitHub博客(二)/">搭建GitHub博客（二）</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2016-06-15T14:13:00.000Z" itemprop="datePublished">
-          2016-06-15
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        上回，已经安装了nodeJS,接下来开始安装hexo（注意输入语句中的空格，不要落下，接下来不再提示）
-– 安装hexo
-
-在终端中输入sudo npm install hexo -g回车
- 
-
-输入完成会提示输入密码，输入时，密码不会以字符的形式显示，可直接输入，回车，如果密码没有错误，需要等待一段时间，终端会自动下载并安装
- 
- 
-
-验证hexo是否安装成功，终端输入hexo回车
- 
-
-
-– 本地创建博客文件目录
-
-在自己喜欢的位置
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/06/15/搭建GitHub博客(二)/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/06/13/搭建GitHub博客(一)/">搭建GitHub博客（一）</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2016-06-13T14:00:00.000Z" itemprop="datePublished">
-          2016-06-13
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        搭建博客所需工具
-github账号（官网申请）
-hexo
-node js
-git (安装Xcode自带)
-
-– 注册GitHub账号 
-
-进入github官网：https://github.com
-填写用户名、邮箱和密码，然后点击Create an account按钮，进行下一步(如图): 
-按照下图完成注册：  
-
-– 下载安装nodeJS
-
-进入nodeJS官网：https://nodejs.org  如上图所示，进行安装。
-打开终
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/06/13/搭建GitHub博客(一)/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 opening-statement">
-                <div class="col-md-4">
-                    <h3><a href="/2016/06/10/hello-world/">Hello World</a></h3>
-                    <span>
-                        <span class="post-meta">
-      <time datetime="2016-06-10T00:00:00.000Z" itemprop="datePublished">
-          2016-06-10
-      </time>
-    
-</span>
-                    </span>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                      
-                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new p
-                      
-                    </p>
-                    
-                    <p class="pull-right readMore">
-                        <a href="/2016/06/10/hello-world/">Read More...</a>
-                    </p>
-                    
-                </div>
-                <div class="clearfix"></div>
-                <hr class="nogutter">
-            </div>
-        </div>
-        
         <nav class="pagination" role="pagination">
-          
-          
-        </nav>
+    
+    
+    <a class="pull-right" href="/2016/06/16/搭建GitHub博客(三)/">
+        搭建GitHub博客(三) →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+<div class="ds-thread" data-thread-key="2016/06/18/windows系统下搭建博客/" data-title="windows系统搭建GitHub博客" data-url="http://yoursite.com/2016/06/18/windows系统下搭建博客/"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"duoshuo_name"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+	 || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+</div>
     </div>
 </section>
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>每个胖子都是一支潜力股</p>
-        </div>
-    </div>
-</section>
-<!-- ============================ END Content =========================== -->
+
 
       
 <!-- ============================ Footer =========================== -->
